@@ -5,7 +5,7 @@ from word_frequency import WordFrequency
 
 
 class WordFrequencyAnalyzer:
-    def _normalize(self, text: str):
+    def _normalize(self, text: str) -> str:
         """
         Normalize the word for processing. In this case only making everything lowercase is sufficient.
         :param text:
